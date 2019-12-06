@@ -11,5 +11,18 @@
 
     <artifactId>kk-security-browser</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.kk.security</groupId>
+            <artifactId>kk-security-core</artifactId>
+            <version>${kk.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+            <version>1.3.5.RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
